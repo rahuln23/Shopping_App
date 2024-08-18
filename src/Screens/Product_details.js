@@ -101,7 +101,7 @@ const Product_details = ({navigation, route}) => {
             }}>
             <Image
               resizeMode={'contain'}
-              source={{uri: product_details.images[0]}}
+              source={{uri: product_details?.images[0]}}
               style={{width: width, height: width / 1.3}}
             />
           </Pressable>
